@@ -54,7 +54,7 @@ With CSS you can set an SVG as a ```background-image```.
 
 You can paste the text content of the SVG file directly into your web page. To prevent the page from becoming to bloated you can use server-side includes to insert the file. 
 
-Inserting the file in this way will  allow you to control the image with both CSS and JavaScript. To do this successfully see below for the anatomy of the SVG format.
+Inserting the file in this way will  allow you to control the image with both CSS and JavaScript. To do this successfully [see the anatomy of the SVG format](/SVG/anatomy-of-svg.md).
 
 ```html
 <body>
