@@ -14,7 +14,9 @@ Example SVG tag, can be either as a seperate file or included in an html file.
 
 **xmlns:** this stands for XML NameSpace. This is what tells the browser how to interpret the content (almost like a file type). It might look like it is a url but it is just a string. Namespace only needs to be decalred in the root element as it says that the ```<svg>``` tag and all decendants belong to the SVG dialect of XML.
 
-**height & width:** sets the size of the SVG canvas. 
+**height & width:** sets the size of the SVG canvas. Together they set the viewport size of the svg. 
+
+**viewBox:** defines which parts of the svg to show. 
 
 ### XLink
 
