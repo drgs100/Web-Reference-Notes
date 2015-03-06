@@ -3,4 +3,4 @@
 Making notes on web technologies
 
 * Colour
-* SVG
+* [SVG](/SVG/)
