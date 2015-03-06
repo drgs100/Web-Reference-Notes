@@ -4,7 +4,7 @@ Scalable vector graphics (SVG) is and XML-based vector image format. SVGs are XM
 
 ## Creation
 
-SVGs are usually created in Illustrator but also possible to use Inkscape. Inkscape uses SVG as its native formate but Illustrator does not so you will need to export as an SVG and then optimise the file. When exporting use the following peramaters to begin with:
+SVGs are usually created in Illustrator but also possible to use Inkscape. Inkscape uses SVG as its native format but Illustrator does not so you will need to export as an SVG and then optimise the file. When exporting use the following parameters to begin with:
 
 * SVG Profiles: SVG 1.1
 * Type: Adobe CEF
@@ -14,7 +14,7 @@ Then optimise with the file: [SVG Optimiser](http://petercollingridge.appspot.co
 
 ## Using SVGs
 
-SVGs can be used for all vector graphics but the way you display an SVG on the page will depend on what you are using it for: an interactive chart using javascript will be different from a sprite. 
+SVGs can be used for all vector graphics but the way you display an SVG on the page will depend on what you are using it for; an interactive chart using javascript will be different from a sprite. 
 
 ### Using SVG as an &lt;img&gt;
 
@@ -52,7 +52,7 @@ With CSS you can set an SVG as a ```background-image```.
 
 ### Using 'inline' SVG
 
-You can paste the text content of the SVG file directly into your web page. To prevent the page from becoming to bloated you can use serverside includes to insert the file. 
+You can paste the text content of the SVG file directly into your web page. To prevent the page from becoming to bloated you can use server-side includes to insert the file. 
 
 Inserting the file in this way will  allow you to control the image with both CSS and JavaScript. To do this successfully see below for the anatomy of the SVG format.
 
@@ -65,13 +65,13 @@ Inserting the file in this way will  allow you to control the image with both CS
   </svg>
   ```
   
-The output from Illustrator contains a DOCTYPE and a lot of other unecessary junk, as mentioned before it is best to optimise the SVG before using it in the manner to help reduce the page size.  
+The output from Illustrator contains a DOCTYPE and a lot of other unnecessary junk, as mentioned before it is best to optimise the SVG before using it in the manner to help reduce the page size.  
 
 ### Other Options
 
-It is also possible to include SVGs as &lt;object&gt; or as Data URIs but I'm not sure they are really relivant to us at the moment but you can read more on them with CSS Trick's [Using SVG](https://css-tricks.com/using-svg/).
+It is also possible to include SVGs as &lt;object&gt; or as Data URIs but I'm not sure they are really relevant to us at the moment but you can read more on them with CSS Trick's [Using SVG](https://css-tricks.com/using-svg/).
 
-## Fallback Options
+## Fall-back Options
 
 Because IE8 and below are still a reality we still need to provide a fall-back option for those users. The best way seems to use Modernizr to swap out SVGs for another image formate like PNG. 
 
@@ -127,4 +127,4 @@ Using Modernizr adds a fall-back div that is only displayed if SVG is not suppor
 
 ## Extending functionality
 
-As SVGs are XML-based you can also open the file and see that they are written in text, using tags similar to html. Because of this it is possible to write and edit SVGs in a text editor but more importanly you can even target SVG elements, classes and IDs using CSS and JavaScript. To learn more about this see [anatomy of the SVG tag](anatomy-of-svg.md).
+As SVGs are XML-based you can also open the file and see that they are written in text, using tags similar to html. Because of this it is possible to write and edit SVGs in a text editor but more importantly you can even target SVG elements, classes and IDs using CSS and JavaScript. To learn more about this see [anatomy of the SVG tag](anatomy-of-svg.md).
