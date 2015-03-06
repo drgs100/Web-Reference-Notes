@@ -45,7 +45,6 @@ So how do you actually draw anything with an SVG? With elements like ```<path>``
 * ```<ellipse>``` - used to create an ellipse
 * ```<polygon>``` - used to create a closed shape consisting of a set of connected straigh lines
 * ```<image>``` - allows a raster image to be included in the SVG
-* ```<g>``` - lets you assign properties to all child elements
 * ```<use>``` - clone other elements already in use
 
 ```svg
@@ -64,11 +63,6 @@ So how do you actually draw anything with an SVG? With elements like ```<path>``
 <polygon points="60,20 100,40 100,80 60,100 20,80 20,40"/>
 
 <image xlink:href="/img/exampleImage.png" x="0" y="0" height="100" width="100" />
-
-<g fill="red">
-  <rect x="0" y="0" width="10" height="10" />
-  <rect x="20" y="0" width="10" height="10" />
-</g>
 
 <!-- Use -->
 <svg width="100%" height="100%" 
@@ -100,6 +94,13 @@ So how do you actually draw anything with an SVG? With elements like ```<path>``
 * ```<defs>``` - like head element in html, used to create elements that don't appear in the SVG directly but are used by other element, for example gradients or styles. 
 
 ```svg
+<svg ... >
+  <g fill="red">
+    <rect x="0" y="0" width="10" height="10" />
+    <rect x="20" y="0" width="10" height="10" />
+  </g>
+</svg>
+
 <svg ... >
   <defs>
     <style type="text/css"><![CDATA[
