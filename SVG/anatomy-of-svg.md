@@ -125,6 +125,7 @@ The most basic colouring of elements is done via the fill and stroke attributes.
 #ExampleRect {
   fill="red";
   stroke="black"
+  }
   ...
   <rect ... id="ExampleRect" />
 ```  
