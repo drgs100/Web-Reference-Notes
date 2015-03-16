@@ -9,6 +9,7 @@ Finally getting a handle on SVGs.
 *  [Crib Sheet](crib-sheet.md)
 *  SVG and JavaScript (to be written)
   *  [Using Javascript to control an SVG](http://www.petercollingridge.co.uk/data-visualisation/using-javascript-control-svg)
+  *  [d3js.org](http://d3js.org/)
 
 ## Tools
 
