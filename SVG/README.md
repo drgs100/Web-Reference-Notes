@@ -7,9 +7,7 @@ Finally getting a handle on SVGs.
 *  [Summary of SVGs](summary.md)
 *  [Anatomy of SVG tag](anatomy-of-svg.md)
 *  [Crib Sheet](crib-sheet.md)
-*  SVG and JavaScript (to be written)
-  *  [Using Javascript to control an SVG](http://www.petercollingridge.co.uk/data-visualisation/using-javascript-control-svg)
-  *  [d3js.org](http://d3js.org/)
+*  [SVG and JavaScript](svg-and-javascript.md)
 
 ## Tools
 
