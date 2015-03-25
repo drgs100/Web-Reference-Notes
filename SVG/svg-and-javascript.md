@@ -37,6 +37,12 @@ D3 is a really neet javascript library which is probably best way of working wit
 d3.select("body").append("p").text("New paragraph!");
 ```
 
+### Examples Methods
+
+```.select()``` - Selects the first element that matches the specified selector string.
+
+```.selectAll()``` - Selects all elements that match the specified selector.
+
 For more information I have been using the tutorials from [Interactive Data Visualisation](http://alignedleft.com/tutorials/d3/). 
 
 ## Sources
