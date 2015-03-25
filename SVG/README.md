@@ -22,3 +22,7 @@ Finally getting a handle on SVGs.
 *  [Export SVG for the web with Illustrator CC](http://creativedroplets.com/export-svg-for-the-web-with-illustrator-cc/)
 *  [An Overview of SVG Sprite Creation Techniques](http://24ways.org/2014/an-overview-of-svg-sprite-creation-techniques/) - 24 Ways. Includes links to more resources. 
 *  [SVG Namespaces](https://developer.mozilla.org/en/docs/Web/SVG/Namespaces_Crash_Course)
+
+## To Read
+* [Pocket Guide to Writing SVG](http://svgpocketguide.com/book/)
+* [An SVG Primer for Today's Browsers](http://www.w3.org/Graphics/SVG/IG/resources/svgprimer.html)
