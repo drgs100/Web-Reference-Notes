@@ -29,6 +29,15 @@ var circle = svgDoc.getElementById("my-circle");
 circle.setAttributeNS(null, "cx" 200);
 
 ```
+## Using D3
+
+D3 is a really neet javascript library which is probably best way of working with SVGs. It employs a technique called *chaining syntax*, allowing you to perform several actions in a single line of code. 
+
+```javascript
+d3.select("body").append("p").text("New paragraph!");
+```
+
+For more information I have been using the tutorials from [Interactive Data Visualisation](http://alignedleft.com/tutorials/d3/). 
 
 ## Sources
 
