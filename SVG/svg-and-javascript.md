@@ -43,6 +43,26 @@ d3.select("body").append("p").text("New paragraph!");
 
 ```.selectAll()``` - Selects all elements that match the specified selector.
 
+### Using D3
+
+Make life easier, use a variable. 
+
+```javascript
+var svg = d3.select("body")
+              .append("svg")
+              .attr("width", w)
+              .attr("height", h);
+````
+
+Then when using D3 you must select something that doesn't exist, bind the data to it and then create it (I think).
+
+```javascript
+svg.selectAll("circle")
+    .data(dataset)
+    .enter()
+    .append("circle");
+```
+
 ### JSON
 
 A specific syntax for organizing data as JavaScript objects. 
