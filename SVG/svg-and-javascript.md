@@ -43,6 +43,10 @@ d3.select("body").append("p").text("New paragraph!");
 
 ```.selectAll()``` - Selects all elements that match the specified selector.
 
+### JSON
+
+A specific syntax for organizing data as JavaScript objects. 
+
 For more information I have been using the tutorials from [Interactive Data Visualisation](http://alignedleft.com/tutorials/d3/). 
 
 ## Sources
