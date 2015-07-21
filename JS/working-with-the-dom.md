@@ -4,9 +4,9 @@
 
 ```getElementById()``` - most common method.
 
-```getElementsbyTagName() - returns html elements in an array
+```getElementsbyTagName()``` - returns html elements in an array
 
-```getElementsByClassName() - returns elements with specific class, does not work in Oldie. 
+```getElementsByClassName()``` - returns elements with specific class, does not work in Oldie. 
 
 ```querySelector()``` and ```querySelectorAll()``` - similar to jQuery, problems with Oldie but better than ```getElementsByClassName()```.
 
@@ -39,13 +39,12 @@ document.register.myName = "Foo Bar"
 
 Use to avoid picking up empty text elements. Losey browser support.
 
-```firstElementChild``` - First element child, ingnores comments or text nodes.
-
-```lastElementsChild```
-
-```children```
-
-```previousElementSibbling/nextElementSibbling```
+```js
+firstElementChild
+lastElementsChild
+children
+previousElementSibbling/nextElementSibbling
+```
 
 
 
