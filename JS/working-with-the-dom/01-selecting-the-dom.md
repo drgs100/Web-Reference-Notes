@@ -1,6 +1,6 @@
-# [Enhancing the DOM with Ray Villalobos](http://www.lynda.com/HTML-tutorials/JavaScript-Enhancing-DOM/122462-2.html)
+# Selecting DOM Elements
 
-## Selecting DOM Elements
+From [Enhancing the DOM with Ray Villalobos](http://www.lynda.com/HTML-tutorials/JavaScript-Enhancing-DOM/122462-2.html).
 
 ```getElementById()``` - most common method.
 
@@ -10,7 +10,7 @@
 
 ```querySelector()``` and ```querySelectorAll()``` - similar to jQuery, problems with Oldie but better than ```getElementsByClassName()```.
 
-### Selecting Form Elements
+## Selecting Form Elements
 
 ```js
 document.forms
@@ -25,7 +25,7 @@ document.register.myName
 document.register.myName = "Foo Bar"
 ```
 
-### Moving up and down
+## Moving up and down
 
 ```parentNode``` - Goes up a level.
 
@@ -35,7 +35,7 @@ document.register.myName = "Foo Bar"
 
 ```previousSibbling/nestSibbling``` - Elements with same parent.
 
-### Targeting Node Elements
+## Targeting Node Elements
 
 Use to avoid picking up empty text elements. Losey browser support.
 
