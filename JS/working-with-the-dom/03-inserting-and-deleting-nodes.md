@@ -2,13 +2,11 @@
 
 ## Creating and appending nodes
 
+```document.createElement(element)``` - Makes a new element but does not added it to the DOM.
+
+```myNode.appendChild(element)``` - Adds element inside a node.
+
 ```js
-document.createElement(element) // Makes a new element but does not added it to the DOM.
-
-myNode.appendChild(element) // Adds element inside a node.
-
-// Example 
-
 // Create element and give it some properties. 
 var myElement = document.createElement("img");
 myElement.src = "images/example.svg";
@@ -28,11 +26,12 @@ var pNode = document.createElement("p");
 var myText = document.createTextNode("foo bar");
 pNode.appendChild(myText)
 
-// Find location to insert us dir(newNode) to find child node, before node 5 for our example.
+// Find location to insert using dir(newNode) to find child node, before node 5 for our example.
 var newNode = document.querySelector("#location");
 
 // Insert
 newNode.insertBefore(pNode, newNode.childNodes[5]);
+```
 
 ## Cloning and removing nodes
 
