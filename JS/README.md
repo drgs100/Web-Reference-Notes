@@ -22,6 +22,7 @@ myElement.addEventListener("click", function (e) {
   // Code here.
 
 }, false);
+```
 
 ## JQuery
 
