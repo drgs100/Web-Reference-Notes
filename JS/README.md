@@ -2,6 +2,18 @@
 
 Reference notes for javascript (including jQuery).
 
+## JavaScript
+
+Self executing function to protect local variables from anything runnung un the page. 
+
+```js
+(function() {
+  
+  // Javascript goes here.
+  
+})(); // Self executing function.
+```
+
 ## JQuery
 
 ```javascript
