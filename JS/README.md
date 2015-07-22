@@ -14,6 +14,15 @@ Self executing function to protect local variables from anything runnung un the 
 })(); // Self executing function.
 ```
 
+Event listener with false so it bubbles propperly. 
+
+```js
+myElement.addEventListener("click", function (e) {
+
+  // Code here.
+
+}, false);
+
 ## JQuery
 
 ```javascript
