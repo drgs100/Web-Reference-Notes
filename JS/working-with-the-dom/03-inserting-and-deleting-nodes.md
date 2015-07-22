@@ -34,8 +34,26 @@ var newNode = document.querySelector("#location");
 // Insert
 newNode.insertBefore(pNode, newNode.childNodes[5]);
 
+## Cloning and removing nodes
 
+```cloneNode()``` - makes a copy and you can the reposition the node.
 
+```removeChild(myNode)``` - removs the node but has to be called from a parent node.
 
+```js
+// Cloning, use true to copy all child nodes. 
+var newNode = myNode.cloneNode(true)
+
+// Remove node by referencing to its parent.
+myNode.parentNode.removeChild(myNode)
+```
+
+## Replacing existing nodes
+
+```replaceChild()``` - replaces a node, must be called from parent node.
+
+```js
+replaceNode.parentNode.replaceChild(myNode, replaceNode);
+```
 
 
